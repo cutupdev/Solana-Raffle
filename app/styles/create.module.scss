@@ -1,0 +1,113 @@
+@import "./variables.scss";
+
+.container {
+    .form {
+        width:700px;
+        max-width: 100%;
+    }
+  input[type="text"],
+  select {
+    font-family: $font;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: $cream;
+    color: $dusk;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  textarea {
+    font-family: $font;
+    width: 100%;
+    height: 200px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: $cream;
+    color: $dusk;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    background-color: $purple;
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+  }
+
+  input[type="date"] {
+    font-family: $font;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: $cream;
+    color: $dusk;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  input[type="time"] {
+    font-family: $font;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: $cream;
+    color: $dusk;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: $cream;
+    color: $dusk;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: $font;
+  }
+
+  input[type="file"] {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: $cream;
+    color: $dusk;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: $font;
+  }
+
+}
+

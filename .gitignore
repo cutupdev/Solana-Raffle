@@ -1,0 +1,11 @@
+
+.anchor
+.DS_Store
+programs/**/target
+target/*
+!target/idl
+!target/types
+**/*.rs.bk
+node_modules
+test-ledger
+auth.json

@@ -1,0 +1,59 @@
+@import '../../../styles/variables.scss';
+
+.container {
+    width:250px;
+    height:400px;
+    background-color: $cream;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    margin-right:10px;
+    margin-bottom:10px;
+
+    .title {
+        position: absolute;
+        left:15px; right:15px;
+        top:0; bottom:15px;
+        height:60px;
+        border-bottom:1px solid $dusk;
+        line-height:60px;
+        color:$dusk;
+        text-align: center;
+        overflow:hidden;
+        font-weight: 600;
+    }
+
+    .image {
+        position: absolute;
+        left:15px;right:15px;
+        top:75px;
+        overflow:hidden;
+        bottom:95px;
+        border-radius: 10px;
+
+        img {
+            width: 100%;
+            height:100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+
+
+    .footer_button {
+        border-radius: 5px;
+        background-color: $dusk;
+        text-align: center;
+        position: absolute;
+        bottom:15px;
+        left:15px;right:15px;
+        height:60px;
+        line-height:60px;
+        transition: .3s;
+        cursor: pointer;
+        user-select: none;
+    }
+    .footer_button:hover {
+        text-decoration: underline;
+    }
+}

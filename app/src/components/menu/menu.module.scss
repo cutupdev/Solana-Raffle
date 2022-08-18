@@ -1,0 +1,67 @@
+@import "../../../styles//variables.scss";
+
+.container {
+  user-select: none;
+
+  h1 {
+    float: left;
+    height: 60px;
+    margin: 0;
+    line-height: 60px;
+    @media only screen and (max-width: 800px) {
+      display: none;
+    }
+  }
+
+  span {
+    line-height: 60px;
+    float: right;
+    margin: 0 20px;
+  }
+  
+  .links {
+    float: right;
+    margin-right: 20px;
+    @media only screen and (max-width: 800px) {
+      float: left;
+      margin-right: 0;
+    }
+    .link {
+      display: inline-block;
+      line-height: 60px;
+      margin: 0 20px;
+      font-weight: 600;
+      cursor: pointer;
+      color: $cream;
+      transition: 0.2s;
+      text-decoration: underline;
+    }
+    .link:hover {
+      color:$cream_hover;
+    }
+  }
+  .wallet_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      height:60px;
+      margin:0;
+      @media only screen and (max-width: 800px) {
+        width:100px;
+      }
+    }
+    float: right;
+    height: 60px;
+    img {
+      height:unset;
+    }
+  }
+  width: 100%;
+  max-width: 100%;
+  border-bottom: 1px solid $cream;
+  height: 100px;
+  padding: 20px 0;
+  margin-bottom: 60px;
+}
