@@ -1,21 +1,48 @@
+# Solana Raffle
+
+This is Solana raffle site. This project consists program(smart contract) and UI(frontend). Solana program was built by Anchor framework and UI is built by React.js. Custom requirement implement is possible to handle on my side. Feel free to reach out of me when you face issue or need custom implementation[Telegram: https://t.me/DevCutup, Whatspp: https://wa.me/13137423660].
 
 
-## Deploy your own version
 
-Deploying the program
+## How to use it
 
-- `git clone` the project from this repository
-- Update the keypair path in `Anchor.toml`
-- `anchor build`
-- `anchor deploy`
-- add the new program ID in `Anchor.toml` and `lib.rs`
-- `anchor build` (remember do to this)
-- `anchor deploy`
+```bash
+git clone https://github.com/cutupdev/Solana-Raffle.git
+```
 
-Starting the UI
+```bash
+cd ./Solana-Raffle
+```
 
-- Copy the new idl from `target/idl/**` and types from `target/types/**`
-- `cd app`
-- `yarn` 
-- You will need to add an ImageBB api key in your `.env` under `REACT_APP_IMAGE_BB`
-- `yarn dev`
+```bash
+npm run install
+```
+
+- For smart contract deployment:
+```bash
+anchor build
+```
+
+```bash
+anchor deploy
+```
+
+- To start frontend
+```bash
+cd ./frontend
+```
+
+```bash
+npm run install
+```
+
+```bash
+npm run start
+```
+
+
+
+### Contact Information
+- Telegram: https://t.me/DevCutup
+- Whatsapp: https://wa.me/13137423660
+- Twitter: https://x.com/devcutup
